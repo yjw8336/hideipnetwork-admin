@@ -7,7 +7,7 @@ const fastify = Fastify({
 })
 
 const runEnv = {
-  port: 3001 || process.env.PORT,
+  port: 80 || process.env.PORT,
   host: '0.0.0.0' || process.env.HOST
 }
 
